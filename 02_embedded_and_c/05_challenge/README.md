@@ -16,8 +16,8 @@ void double_array(int *arr, size_t size);
 #endif // DOUBLE_ARRAY_H
 ```
 
-Wrap the `double_array` declaration within the C header file.
+Wrap the `double_array` declaration within the C header file, so it can be used from within a C++ program.
 
 ## Task 2
 
-Use `double_array` from within a C++ program by calling it on the underlying data from a `std::array`.
+Use `double_array` from within a C++ program `main.cpp` by calling it on the underlying data from a `std::array`.
