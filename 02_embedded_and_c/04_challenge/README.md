@@ -8,7 +8,7 @@ Let's consider an embedded system that controls a simple LED light. The LED can 
 
 First, let's create an embedded C library that simulates the LED control.
 
-led_controller.c:
+#### led_controller.c:
 
 ```c
 #include "led_controller.h"
@@ -32,7 +32,7 @@ bool led_get_state(void) {
 }
 ```
 
-led_controller.h:
+#### led_controller.h:
 
 ```c
 #ifndef LED_CONTROLLER_H
@@ -80,8 +80,8 @@ Wrap the LED controller C library function declarations using `extern "C"`.
 
 ## Task 3
 
-Create a C++ class called LedController that utilizes the C library to control the LED light. Implement member functions to initialize, turn on, turn off, and get the LED state.
+Create a C++ class called `LedController` that utilizes the C library to control the LED light. Implement member functions to `initialize`, `turn_on`, `turn_off`, and `get` the LED state.
 
 ## Task 4
 
-Create a C++ program that uses the LedController class to control the LED light. Turn on the LED, print its state, turn off the LED, and print its state again.
+Create a C++ program that uses the `LedController` class to control the LED light. Turn on the LED, print its state, turn off the LED, and print its state again.
