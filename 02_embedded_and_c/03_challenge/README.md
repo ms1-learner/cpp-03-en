@@ -2,8 +2,12 @@
 
 ## Task 1
 
-Create a class `DataProcessor` that takes a pointer to a `Sensor` as its constructor argument. Implement a method `processData()` in `DataProcessor` that reads data from the sensor, processes it (e.g., by multiplying it by a constant), and returns the result. Use a smart pointer (`std::unique_ptr`) to manage the lifetime of the `Sensor` objects.
+Create an enum class `TrafficLight` representing the different states of a traffic light (red, yellow, and green). Write a function that takes a traffic light state as an argument and returns the duration of that state in seconds.
 
 ## Task 2
+
+Implement a templated function `clamp` that takes a minimum value, a maximum value, and a value to clamp. If the value is less than the minimum, return the minimum. If the value is greater than the maximum, return the maximum. Otherwise, return the value. Test the function with different types like int, float, and double.
+
+## Task 3
 
 Write a constant called `pi` that represents the number pi using `constexpr`. Then write a `consteval` function `circumference` that computes the circumference of a circle of a given radius that uses this `pi` constant. Use a tool like [godbolt.org](https://godbolt.org/) to observe what the compiled code looks like.
