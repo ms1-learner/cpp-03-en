@@ -10,4 +10,4 @@ Implement a templated function `clamp` that takes a value to clamp, a minimum va
 
 ## Task 3
 
-Write a constant called `pi` that represents the number pi using `constexpr`. Then write a `consteval` function `calculateCircumference` that computes the circumference of a circle of a given radius that uses this `pi` constant. Use a tool like [godbolt.org](https://godbolt.org/) to observe what the compiled code looks like.
+Write a constant called `pi` that represents the number pi using `constexpr`. Then write a `constexpr` function `calculateCircumference` that computes the circumference of a circle of a given radius that uses this `pi` constant. Use a tool like [godbolt.org](https://godbolt.org/) to observe what the compiled code looks like.
