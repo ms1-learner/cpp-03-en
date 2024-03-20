@@ -69,7 +69,7 @@ This will create the `libledcontroller.a` static library that we can link into o
 Once we have written our C++ program, our final step will be to compile our C++ program and link our `libledcontroller.a` static library:
 
 ```bash
-g++ -o main -L. -lledcontroller main.cpp led_controller.cpp
+g++ -o main main.cpp led_controller.cpp -L. -lledcontroller
 ```
 
 The `-L` flag specifies a path containing the libraries. The `-l` flag specifies the name of the library, omitting the leading 'lib' and trailing '.a'.
