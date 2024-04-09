@@ -80,7 +80,7 @@ Wrap the LED controller C library function declarations using `extern "C"`.
 
 ## Task 3
 
-Create a C++ class called `LedController` that utilizes the C library to control the LED light. Implement member functions to `initialize`, `turn_on`, `turn_off`, and `get` the LED state.
+Create a C++ class called `LedController` that utilizes the C library to control the LED light. Implement a constructor and member functions to turn on (`turnOn`), turn off (`turnOff`), and get the state (`getState`) of the LED.
 
 ## Task 4
 
